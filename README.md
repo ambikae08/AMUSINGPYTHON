@@ -15,16 +15,25 @@ Amplitude Modulation (AM) is a technique used in electronic communication, prima
 
 The general form of an AM signal is:
 
-<img width="368" height="266" alt="image" src="https://github.com/user-attachments/assets/9995f980-c5bd-400e-a8d6-eeb534c68466" />
+<img width="368" height="200" alt="image" src="https://github.com/user-attachments/assets/9995f980-c5bd-400e-a8d6-eeb534c68466" />
+
+
+
+
 
 
 Algorithm
 
-Initialize Parameters: Set the values for carrier frequency, message frequency, and sampling frequency.
+Initialize Parameters:Set the values for carrier frequency, message frequency, and sampling frequency.
+
 Generate Time Axis: Create a time vector for the signal duration.
+
 Generate Message Signal: Define the message signal as a cosine wave.
+
 Generate Carrier Signal: Define the carrier signal as a cosine wave.
+
 Modulate Signal: Apply the AM formula to obtain the modulated signal.
+
 Plot the Signals: Use Matplotlib to plot the message signal, carrier signal, and modulated signal.
 
 Python Code
